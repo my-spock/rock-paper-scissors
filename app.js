@@ -51,13 +51,13 @@ function play(playerChoice){
       break;
   }
       
-      if (computerChoice > playerChoice) {
-        alert("The computer won! :(");
-      } else if (computerChoice < playerChoice) {
-        alert("You won!  Yay!");
-      } else if (computerChoice === playerChoice) {
-        alert("Aagh!  A tie!");
-      } else {
-        alert("Uh, something went wrong.");
-      }
+    if (computerChoice > playerChoice) {
+    alert("The computer won! :(");
+    } else if (computerChoice < playerChoice) {
+    alert("You won!  Yay!");
+    } else if (computerChoice === playerChoice) {
+    alert("Aagh!  A tie!");
+    } else {
+    alert("Uh, something went wrong.");
+    }
   }
